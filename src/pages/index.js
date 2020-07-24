@@ -73,6 +73,7 @@ const cardsList = new Section({
   cardSelector,
 );
 
+
 cardsList.renderItems();
 
 
