@@ -7,6 +7,7 @@ export default class Card {
   }
 
   _getTemplate() {
+    /* Можно лучше: можно не создавать эту переменную в памяти, а возвращать значение сразу в return. */
     const cardElement = document
       .querySelector(this._cardSelector)
       .content
